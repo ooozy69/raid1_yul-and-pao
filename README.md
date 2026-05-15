@@ -9,3 +9,9 @@ This command creates a file named test.txt inside the RAID mount directory.
 ```bash
 echo "paopao" | sudo tee /mnt/raid1/test.txt
 ```
+Verify the File Content
+
+Use cat to display the content of the file.
+```bash
+cat /mnt/raid1/test.txt
+```
